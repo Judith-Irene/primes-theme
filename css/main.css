@@ -1,0 +1,42 @@
+header{
+	background: url("../img/background/hero.jpg");
+	background-size: cover;
+	color: #FFF;
+
+}
+.menu li{
+	display: inline-block;
+}
+.sub-menu li{
+	display: inline-block;
+	background:rgba(255,255,255,0.1);
+	padding:10px;
+}
+.sub-menu a:hover{
+	background:red;
+	color:black;
+	padding:10px;
+	
+}
+.portafolio li{
+	display: inline-block;
+}
+.portafolio a,.boton-centrado a{
+	
+}
+.portafolio a,.boton-centrado a:hover{
+	text-decoration: none;
+	background:blue;
+}
+.boton-centrado{
+	margin:40px;
+}
+.boton-centrado a{
+	background:green;
+}
+section{
+	background: grey;
+}
+.section-fondo{
+	background:url("../img/background/city.jpg");
+}
