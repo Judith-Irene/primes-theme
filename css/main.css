@@ -2,41 +2,171 @@ header{
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	color: #FFF;
-
+	padding:20px 0px 170px 0px;
+	margin-bottom:90px;
 }
-.menu li{
-	display: inline-block;
+/*Menu inicial*/
+.navbar-nav li{
+	list-style: none;
+	margin-left:40px;
+}
+.navbar-nav a{
+	text-decoration:none;
+	color: #fff;
+}
+.navbar-nav a:hover{
+	color:#04B4AE;
+}
+/**/
+/*codigo de Launsh your y los dos botones*/
+.texto-centrado h1{
+	margin:150px 0px 40px 0px;
 }
 .sub-menu li{
 	display: inline-block;
+	margin-bottom:50px;
+	margin:30px auto;
+}
+.sub-menu a{
+	margin-right:40px;
+	text-decoration: none;
+	color:#fff;
+	padding:15px;
+	font-size:18px;
+	transition:all 1s;
 	background:rgba(255,255,255,0.1);
-	padding:10px;
 }
 .sub-menu a:hover{
-	background:red;
-	color:black;
-	padding:10px;
-	
+	background: #848484;
+}
+/**/
+.container-fluid span{
+	color:#04B4AE;
+	font-size:50px;
+}
+.segunda-fila p{
+	color:#A4A4A4;
+}
+.col-sm-6 span{/*color de iconos*/
+	color:#0DC8CE;
+}
+.lorem{
+	margin:20px 0px 150px 0px;
+}
+section{
+	background:#F2F2F2;
+}
+.computadora{
+	padding:25px 0px 15px 0px;
+	margin-bottom:60px;
+}
+/*LOREM DEL MORE FEATURES*/
+.media-left span{
+	color:#04B4AE;
+	font-size: 30px;
+}
+.media{
+	margin-bottom:50px;
+}
+.media-body p{
+	color:#A4A4A4;
+}
+/**/
+/*P O R T A F O L I O*/
+.portafolio h2{
+	padding:15px 0px;
+}
+.portafolio p,ul{
+	padding-bottom:10px;
+}
+.portafolio-secction{
+	background:#F2F2F2;
 }
 .portafolio li{
 	display: inline-block;
 }
 .portafolio a,.boton-centrado a{
-	
-}
-.portafolio a,.boton-centrado a:hover{
 	text-decoration: none;
-	background:blue;
+	color:black;
+	padding:15px;
+	font-size:18px;
+	transition:all 1s;
+}
+.portafolio a:hover{
+	background:#04B4AE;
 }
 .boton-centrado{
-	margin:40px;
+	margin:40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 }
-.boton-centrado a{
-	background:green;
+.boton-centrado a:hover{
+	background:#848484;
 }
-section{
-	background: grey;
-}
-.section-fondo{
+/*OTRA SECCION CON FONDO DE CIUDAD*/
+.section-fondo-ciudad{
 	background:url("../img/background/city.jpg");
+	padding:150px 0px;
+	color: #fff;
+}
+.sub-menu1{
+	margin-top:80px;
+}
+.sub-menu1 a{
+	text-decoration: none;
+	color:#fff;
+	padding:15px;
+	font-size:18px;
+	transition:all 1s;
+	background:rgba(255,255,255,0.1);
+}
+.sub-menu1 a:hover{
+	background:#848484; 
+}
+.color-negro,.color-celeste{
+	background: #D8D8D8;
+	padding-bottom:20px;
+	margin-bottom:30px;
+	font-size: 18px;
+}
+.color-negro h3{
+	background:#2E2E2E;
+	color: #fff;
+	padding: 30px;
+	margin-bottom:25px;
+}
+.color-celeste h3{
+	background:#04B4AE;
+	color: #fff;
+	padding: 30px;
+	margin-bottom:25px;
+}
+.parrafo-lineado{
+	padding:0px 30px 0px 30px;
+}
+.parrafo-lineado p{
+	color:#BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.parrafo-lineado a{
+	background:grey;
+	color:#fff;
+	text-decoration: none;
+}
+.section-fondo-contacto{
+	background: url("../img/background/contactus.jpg");
+	color:#fff;
+}
+form{
+	margin:5px 60px 30px 0px;
+}
+.col-sm-sm-5 h4{
+	margin-bottom:20px;
+}
+form a{
+	background: red;
+	text-decoration: none;
+	font-size:16px;
+	padding: 10px;
+
 }
