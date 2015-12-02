@@ -1,10 +1,20 @@
 header{
-	background: url("../img/background/hero.jpg");
+	background: url("../img/background/hero.jpg")center center;
 	background-size: cover;
 	color: #FFF;
 	padding:20px 0px 170px 0px;
 	margin-bottom:90px;
 }
+/*AUN NO FUNCIONA
+.background{
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	display: block;
+	position: absolute;
+	height: 100%;
+}*/
 /*Menu inicial*/
 .navbar-nav li{
 	list-style: none;
@@ -103,7 +113,7 @@ section{
 }
 /*OTRA SECCION CON FONDO DE CIUDAD*/
 .section-fondo-ciudad{
-	background:url("../img/background/city.jpg");
+	background:url("../img/background/city.jpg") center center;
 	padding:150px 0px;
 	color: #fff;
 }
@@ -162,7 +172,7 @@ section{
 	margin-bottom: 15px;
 }
 .section-fondo-contacto{
-	background: url("../img/background/contactus.jpg");
+	background: url("../img/background/contactus.jpg") center center;
 	color:#fff;
 }
 form{
