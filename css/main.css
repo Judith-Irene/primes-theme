@@ -2,19 +2,20 @@ header{
 	background: url("../img/background/hero.jpg")center center;
 	background-size: cover;
 	color: #FFF;
+	height: 700px;
 	padding:20px 0px 170px 0px;
 	margin-bottom:90px;
 }
-/*AUN NO FUNCIONA
-.background{
-	background: rgba(0,0,0,.5);
+
+.background1{
+	background-color: rgba(0,0,0,.6);
 	width: 100%;
 	padding:0px;
 	margin:0px;
 	display: block;
 	position: absolute;
 	height: 100%;
-}*/
+}
 /*Menu inicial*/
 .navbar-nav li{
 	list-style: none;
