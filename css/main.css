@@ -1,20 +1,18 @@
 header{
-	background: url("../img/background/hero.jpg")center center;
+	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	color: #FFF;
-	height: 700px;
-	padding:20px 0px 170px 0px;
-	margin-bottom:90px;
+	width: 100%;
+	height:100%;
+	margin-bottom:100px;
 }
-
 .background1{
 	background-color: rgba(0,0,0,.6);
 	width: 100%;
-	padding:0px;
 	margin:0px;
-	display: block;
-	position: absolute;
-	height: 100%;
+	height:100%;
+	padding:20px 0px 200px 0px;
+
 }
 /*Menu inicial*/
 .navbar-nav li{
@@ -28,10 +26,14 @@ header{
 .navbar-nav a:hover{
 	color:#04B4AE;
 }
+.sombreado span{
+	color:#fff;
+	font-size:50px;
+}
 /**/
 /*codigo de Launsh your y los dos botones*/
 .texto-centrado h1{
-	margin:150px 0px 40px 0px;
+	margin:100px 0px 40px 0px;
 }
 .sub-menu li{
 	display: inline-block;
@@ -109,14 +111,27 @@ section{
 .boton-centrado{
 	margin:40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 }
+.boton-centrado a{
+	background:#D8D8D8;
+}
 .boton-centrado a:hover{
 	background:#848484;
 }
 /*OTRA SECCION CON FONDO DE CIUDAD*/
 .section-fondo-ciudad{
-	background:url("../img/background/city.jpg") center center;
-	padding:150px 0px;
+	background:url("../img/background/city.jpg");
 	color: #fff;
+	width: 100%;
+	height:500px;
+}
+.background2{
+	background-color: rgba(0,0,0,.6);
+	width: 100%;
+	margin:0px;
+	display: block;
+	position: absolute;
+	height:500px;
+	padding:150px 0px;
 }
 .sub-menu1{
 	margin-top:80px;
@@ -173,8 +188,16 @@ section{
 	margin-bottom: 15px;
 }
 .section-fondo-contacto{
-	background: url("../img/background/contactus.jpg") center center;
+	background: url("../img/background/contactus.jpg");
 	color:#fff;
+	width: 100%;
+	height: 100%;
+}
+.background3{
+	background-color: rgba(0,0,0,.6);
+	color:#fff;
+	width: 100%;
+	height: 100%;
 }
 form{
 	margin:5px 60px 30px 0px;
@@ -200,13 +223,21 @@ form{
 	display: inline-block;
 	margin: 8px;
 }
+.addres span{
+	margin-right: 10px;
+}
 footer{
 	background:#2E2E2E;
 	padding:30px 0px;
+
 }
 .pie-de-pagina{
 	text-align: center;
 }
 .pie-de-pagina a{
 	text-decoration:none;
+	color:#BDBDBD;
+}
+.pie-de-pagina a:hover{
+	color: #fff;
 }
